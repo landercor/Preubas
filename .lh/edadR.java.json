@@ -1,0 +1,30 @@
+{
+    "sourceFile": "edadR.java",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 3,
+            "patches": [
+                {
+                    "date": 1774580139332,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1774580587482,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,22 @@\n-edadR\n+class edadR {\n+\n+    int edad = 18;\n+    boolean tieneCuenta = true;\n+    boolean estaBloqueado = false;\n+\n+\n+    public static void main(String[] args) {\n+        edadR persona = new edadR();\n+        if (persona.estaBloqueado) {\n+            System.out.println(\"La cuenta esta bloqueada\");\n+        } else if (persona.edad < 18) {\n+            System.out.println(\"El usuario es menor de edad\"); {\n+            }\n+        } else if (persona.tieneCuenta) {\n+            System.out.println(\"Usuario logeado\");\n+        } else {\n+            System.out.println(\"Usuario no registrado\");\n+            }\n+        }\n+    }\n+\n"
+                },
+                {
+                    "date": 1774580602064,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,16 +1,16 @@\n \n class edadR {\n \n-    int edad = 18;\n+    int edadR = 18;\n     boolean tieneCuenta = true;\n     boolean estaBloqueado = false;\n \n     public static void main(String[] args) {\n         edadR persona = new edadR();\n         if (persona.estaBloqueado) {\n             System.out.println(\"La cuenta esta bloqueada\");\n-        } else if (persona.edad < 18) {\n+        } else if (persona.edadR < 18) {\n             System.out.println(\"El usuario es menor de edad\");\n             {\n             }\n         } else if (persona.tieneCuenta) {\n"
+                },
+                {
+                    "date": 1774580630561,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,10 +10,8 @@\n         if (persona.estaBloqueado) {\n             System.out.println(\"La cuenta esta bloqueada\");\n         } else if (persona.edadR < 18) {\n             System.out.println(\"El usuario es menor de edad\");\n-            {\n-            }\n         } else if (persona.tieneCuenta) {\n             System.out.println(\"Usuario logeado\");\n         } else {\n             System.out.println(\"Usuario no registrado\");\n"
+                }
+            ],
+            "date": 1774580139332,
+            "name": "Commit-0",
+            "content": "edadR"
+        }
+    ]
+}

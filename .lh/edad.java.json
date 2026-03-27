@@ -1,0 +1,26 @@
+{
+    "sourceFile": "edad.java",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 2,
+            "patches": [
+                {
+                    "date": 1774578029482,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1774578064420,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,7 @@\n \n class edad {\n \n+    public static void main(String[]args) {\n+        \n+    }\n }\n"
+                },
+                {
+                    "date": 1774578317254,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,15 @@\n \n class edad {\n+    public static void main(String[] args) {}\n+        public static String verificarEdad(int edad) {\n \n-    public static void main(String[] args) {\n-\n+            if (edad < 18) {\n+                return \"menor de edad\";\n+            } else if (edad < 60) {\n+                return \"Eres adulto\";\n+            } else  {\n+                return \"Eres adulto mayor\";\n+            }\n+        \n     }\n }\n"
+                }
+            ],
+            "date": 1774578029482,
+            "name": "Commit-0",
+            "content": "class edad {\n    \n}"
+        }
+    ]
+}
