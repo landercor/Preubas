@@ -1,0 +1,1 @@
+Acceso  Juan con acceso permitido.Usuario Mariano tiene la edad suficiente para acceder.Usuario Carlossin cuenta, por favor regístrate.
