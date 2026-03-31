@@ -1,9 +1,10 @@
 
-
+#ignorar archivos temporales de vscode
+.history/
 #Ignore vscode AI rules
 .github\instructions\codacy.instructions.md
 #ignorar archivos de Visual Studio history
-.lhistory/
+.history/
 .lh/
 
 
