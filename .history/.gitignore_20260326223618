@@ -1,0 +1,10 @@
+
+
+#Ignore vscode AI rules
+.github\instructions\codacy.instructions.md
+
+# Ignore node modules
+node_modules/
+# Ignore Visual Studio temporary files history lh
+.history/
+.lh/
