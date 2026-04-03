@@ -1,0 +1,6 @@
+=== Reporte de Mascotas ===
+PetOwnerInfo@5ab956d7 -> Datos validos
+PetOwnerInfo@3e27aa33 -> El propietario debe tener una mascota.
+PetOwnerInfo@2e385cce -> La Mascota debe contar con sus vacunas al dia.
+PetOwnerInfo@2ddc9a9f -> Datos validos
+PetOwnerInfo@298a5e20 -> La identificación del propietario es obligatoria.

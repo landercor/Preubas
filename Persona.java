@@ -13,7 +13,7 @@ class Persona {
 
     }
 
-    // Getters y Setters
+    // Getters
     public String getNombre() {
         return nombre;
     }
@@ -22,7 +22,7 @@ class Persona {
         return edad;
     }
 
-    public boolean istieneCuenta() {
+    public boolean isTieneCuenta() {
         return tieneCuenta;
     }
 
